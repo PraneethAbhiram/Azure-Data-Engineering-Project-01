@@ -1,24 +1,24 @@
 -- Total records loaded
-SELECT COUNT(*) AS total_records FROM customers_raw;
+SELECT COUNT(*) AS total_records FROM project;
 
 -- Check for null customer IDs
 SELECT COUNT(*) AS null_ids 
-FROM customers_raw 
+FROM project
 WHERE customer_id IS NULL;
 
 -- Check duplicate customers
 SELECT customer_id, COUNT(*) AS cnt
-FROM customers_raw
+FROM project
 GROUP BY customer_id
 HAVING COUNT(*) > 1;
 
 -- Check invalid spend values
 SELECT COUNT(*) AS invalid_spend
-FROM customers_raw
+FROM project
 WHERE total_spent < 0;
 
 -- Country distribution
 SELECT country, COUNT(*) AS cnt
-FROM customers_raw
+FROM project
 GROUP BY country
 ORDER BY cnt DESC;
