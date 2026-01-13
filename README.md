@@ -1,4 +1,3 @@
-
 ---
 
 # 🥇 Project 1: End-to-End Ingestion (ADLS → ADF → Azure SQL)
@@ -49,12 +48,39 @@ Designed a **control-flow driven Azure Data Factory pipeline** that loads data f
 
 ---
 
+# 🥉 Project 3: Metadata-Driven Multi-Table Ingestion Framework (SQL → ADLS)
+
+### 📌 Overview  
+Built a **single reusable Azure Data Factory pipeline** to ingest **multiple SQL tables into Azure Data Lake** using a **metadata-driven approach**, supporting both **sequential and batch execution modes.**
+
+### 🏗 Architecture  
+**Azure SQL (Control Table)** → **ADF (Lookup + ForEach + Parameterized Copy)** → **ADLS**
+
+### 🎯 Key Features
+- ✅ Metadata-driven ingestion using a **control/config table**  
+- ✅ **Single pipeline** to ingest unlimited tables  
+- ✅ **ForEach orchestration** for multi-table loading  
+- ✅ Supports **sequential and parallel batch execution**  
+- ✅ Fully **parameterized datasets and pipelines**  
+- ✅ Automatic folder & file creation in ADLS  
+
+### 📈 Learning Outcomes
+- Designed a **scalable ingestion framework**  
+- Implemented **Lookup + ForEach + dynamic expressions**  
+- Built **enterprise-style reusable pipelines**  
+- Practiced **batch vs sequential orchestration patterns**  
+
+📁 **Screenshots:**  
+👉 `pipelines/project3_multitable_framework/`
+
+---
+
 ## 🚀 Planned Enhancements
 
-- ⭐ Parameterized multi-table ingestion framework  
+- ⭐ Incremental loading using watermark columns  
 - ⭐ Raw → Clean → Curated (lakehouse layering)  
-- ⭐ CSV/JSON → Parquet optimization pipeline  
-- ⭐ Incremental load & automation workflows  
+- ⭐ CSV / JSON → Parquet optimization pipelines  
+- ⭐ Data quality checks & audit logging  
 
 ---
 
@@ -62,7 +88,9 @@ Designed a **control-flow driven Azure Data Factory pipeline** that loads data f
 
 This repository is designed as a **growing Azure Data Engineering portfolio**, focused on:
 
-- ✔ scalable data ingestion  
+- ✔ scalable data ingestion frameworks  
 - ✔ data quality & validation checks  
-- ✔ reusable cloud pipelines  
-- ✔ real-world engineering design patterns  
+- ✔ reusable and metadata-driven pipelines  
+- ✔ real-world cloud engineering design patterns  
+
+---
