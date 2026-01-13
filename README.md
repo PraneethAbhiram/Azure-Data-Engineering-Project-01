@@ -74,26 +74,8 @@ Built a **single reusable Azure Data Factory pipeline** to ingest **multiple SQL
 - Practiced **batch vs sequential orchestration patterns**  
 
 📁 **Screenshots:**  
-👉 `pipelines/project3_multitable_framework/`
+👉 `pipelines/project-03-mutilple_table_ingestion/`
 
----
 
-## 🚀 Planned Enhancements
 
-- ⭐ Incremental loading using watermark columns  
-- ⭐ Raw → Clean → Curated (lakehouse layering)  
-- ⭐ CSV / JSON → Parquet optimization pipelines  
-- ⭐ Data quality checks & audit logging  
 
----
-
-## 👨‍💻 About This Repository
-
-This repository is designed as a **growing Azure Data Engineering portfolio**, focused on:
-
-- ✔ scalable data ingestion frameworks  
-- ✔ data quality & validation checks  
-- ✔ reusable and metadata-driven pipelines  
-- ✔ real-world cloud engineering design patterns  
-
----
