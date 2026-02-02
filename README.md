@@ -77,7 +77,7 @@ Built a **single reusable Azure Data Factory pipeline** to ingest **multiple SQL
 👉 `pipelines/project-03-mutilple_table_ingestion/`
 
 
-# 🚀 Project 3: SCD Type 2 Implementation — Azure Data Factory
+# 🚀 Project 4: SCD Type 2 Implementation — Azure Data Factory
 
 ## 📌 Overview
 This project implements **Slowly Changing Dimension (Type 2)** using **Azure Data Factory Mapping Data Flow** to maintain **historical data changes** inside a dimension table.
