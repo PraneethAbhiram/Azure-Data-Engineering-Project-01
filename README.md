@@ -285,30 +285,7 @@ History is preserved.
 
 ---
 
-## ▶️ How to Run
 
-1. Create tables in Azure SQL
-2. Import datasets into ADF
-3. Deploy Mapping Data Flow
-4. Run pipeline
-5. Validate `dim_customer` history
-
----
-
-## 📷 Screenshots
-
-Place screenshots inside:
-
-```
-images/scd2/
-```
-
-Example:
-```
-pipeline.png
-```
-
----
 
 # ⭐ Summary
 
